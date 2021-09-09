@@ -24,7 +24,7 @@ namespace WebAPI_Test.Models
         //[Required(ErrorMessage = "Please enter your middleName")]
         //[Display(Name = "Middle Name", Prompt = "Enter Middle Name", Description = "Please Enter Middle Name")]
         //[StringLength(20, MinimumLength = 3, ErrorMessage = "MiddleName should be minimum 3 characters and a maximum of 20 characters")]
-        public string middleName { get; set; }
+        public string middleName { get; set; } 
 
         [Required(ErrorMessage = "please enter LastName")]
         [Display(Name = "Last Name", Prompt = "Enter Last Name", Description = "Please Enter Last Name")]
